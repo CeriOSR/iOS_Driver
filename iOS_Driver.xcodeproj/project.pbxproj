@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E959EF1EDA720B00B4361B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E959EE1EDA720B00B4361B /* AppDelegate.swift */; };
+		E0E959F11EDA720B00B4361B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E959F01EDA720B00B4361B /* ViewController.swift */; };
+		E0E959F41EDA720B00B4361B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E959F21EDA720B00B4361B /* Main.storyboard */; };
+		E0E959F61EDA720B00B4361B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E959F51EDA720B00B4361B /* Assets.xcassets */; };
+		E0E959F91EDA720B00B4361B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E959F71EDA720B00B4361B /* LaunchScreen.storyboard */; };
+		E0E95A041EDA720B00B4361B /* iOS_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E95A031EDA720B00B4361B /* iOS_DriverTests.swift */; };
+		E0E95A0F1EDA720B00B4361B /* iOS_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E95A0E1EDA720B00B4361B /* iOS_DriverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E95A001EDA720B00B4361B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E959E31EDA720B00B4361B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E959EA1EDA720B00B4361B;
+			remoteInfo = iOS_Driver;
+		};
+		E0E95A0B1EDA720B00B4361B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E959E31EDA720B00B4361B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E959EA1EDA720B00B4361B;
+			remoteInfo = iOS_Driver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0E959EB1EDA720B00B4361B /* iOS_Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Driver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E959EE1EDA720B00B4361B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0E959F01EDA720B00B4361B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0E959F31EDA720B00B4361B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E959F51EDA720B00B4361B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E959F81EDA720B00B4361B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0E959FA1EDA720B00B4361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E959FF1EDA720B00B4361B /* iOS_DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_DriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E95A031EDA720B00B4361B /* iOS_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DriverTests.swift; sourceTree = "<group>"; };
+		E0E95A051EDA720B00B4361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E95A0A1EDA720B00B4361B /* iOS_DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_DriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E95A0E1EDA720B00B4361B /* iOS_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DriverUITests.swift; sourceTree = "<group>"; };
+		E0E95A101EDA720B00B4361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E959E81EDA720B00B4361B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E959FC1EDA720B00B4361B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E95A071EDA720B00B4361B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E959E21EDA720B00B4361B = {
+			isa = PBXGroup;
+			children = (
+				E0E959ED1EDA720B00B4361B /* iOS_Driver */,
+				E0E95A021EDA720B00B4361B /* iOS_DriverTests */,
+				E0E95A0D1EDA720B00B4361B /* iOS_DriverUITests */,
+				E0E959EC1EDA720B00B4361B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E959EC1EDA720B00B4361B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E959EB1EDA720B00B4361B /* iOS_Driver.app */,
+				E0E959FF1EDA720B00B4361B /* iOS_DriverTests.xctest */,
+				E0E95A0A1EDA720B00B4361B /* iOS_DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E959ED1EDA720B00B4361B /* iOS_Driver */ = {
+			isa = PBXGroup;
+			children = (
+				E0E959EE1EDA720B00B4361B /* AppDelegate.swift */,
+				E0E959F01EDA720B00B4361B /* ViewController.swift */,
+				E0E959F21EDA720B00B4361B /* Main.storyboard */,
+				E0E959F51EDA720B00B4361B /* Assets.xcassets */,
+				E0E959F71EDA720B00B4361B /* LaunchScreen.storyboard */,
+				E0E959FA1EDA720B00B4361B /* Info.plist */,
+			);
+			path = iOS_Driver;
+			sourceTree = "<group>";
+		};
+		E0E95A021EDA720B00B4361B /* iOS_DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E95A031EDA720B00B4361B /* iOS_DriverTests.swift */,
+				E0E95A051EDA720B00B4361B /* Info.plist */,
+			);
+			path = iOS_DriverTests;
+			sourceTree = "<group>";
+		};
+		E0E95A0D1EDA720B00B4361B /* iOS_DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E95A0E1EDA720B00B4361B /* iOS_DriverUITests.swift */,
+				E0E95A101EDA720B00B4361B /* Info.plist */,
+			);
+			path = iOS_DriverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E959EA1EDA720B00B4361B /* iOS_Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E95A131EDA720B00B4361B /* Build configuration list for PBXNativeTarget "iOS_Driver" */;
+			buildPhases = (
+				E0E959E71EDA720B00B4361B /* Sources */,
+				E0E959E81EDA720B00B4361B /* Frameworks */,
+				E0E959E91EDA720B00B4361B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Driver;
+			productName = iOS_Driver;
+			productReference = E0E959EB1EDA720B00B4361B /* iOS_Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E959FE1EDA720B00B4361B /* iOS_DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E95A161EDA720B00B4361B /* Build configuration list for PBXNativeTarget "iOS_DriverTests" */;
+			buildPhases = (
+				E0E959FB1EDA720B00B4361B /* Sources */,
+				E0E959FC1EDA720B00B4361B /* Frameworks */,
+				E0E959FD1EDA720B00B4361B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E95A011EDA720B00B4361B /* PBXTargetDependency */,
+			);
+			name = iOS_DriverTests;
+			productName = iOS_DriverTests;
+			productReference = E0E959FF1EDA720B00B4361B /* iOS_DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0E95A091EDA720B00B4361B /* iOS_DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E95A191EDA720B00B4361B /* Build configuration list for PBXNativeTarget "iOS_DriverUITests" */;
+			buildPhases = (
+				E0E95A061EDA720B00B4361B /* Sources */,
+				E0E95A071EDA720B00B4361B /* Frameworks */,
+				E0E95A081EDA720B00B4361B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E95A0C1EDA720B00B4361B /* PBXTargetDependency */,
+			);
+			name = iOS_DriverUITests;
+			productName = iOS_DriverUITests;
+			productReference = E0E95A0A1EDA720B00B4361B /* iOS_DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E959E31EDA720B00B4361B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rey Cerio";
+				TargetAttributes = {
+					E0E959EA1EDA720B00B4361B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AS82F53XC3;
+						ProvisioningStyle = Automatic;
+					};
+					E0E959FE1EDA720B00B4361B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AS82F53XC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0E959EA1EDA720B00B4361B;
+					};
+					E0E95A091EDA720B00B4361B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AS82F53XC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0E959EA1EDA720B00B4361B;
+					};
+				};
+			};
+			buildConfigurationList = E0E959E61EDA720B00B4361B /* Build configuration list for PBXProject "iOS_Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E959E21EDA720B00B4361B;
+			productRefGroup = E0E959EC1EDA720B00B4361B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E959EA1EDA720B00B4361B /* iOS_Driver */,
+				E0E959FE1EDA720B00B4361B /* iOS_DriverTests */,
+				E0E95A091EDA720B00B4361B /* iOS_DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E959E91EDA720B00B4361B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E959F91EDA720B00B4361B /* LaunchScreen.storyboard in Resources */,
+				E0E959F61EDA720B00B4361B /* Assets.xcassets in Resources */,
+				E0E959F41EDA720B00B4361B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E959FD1EDA720B00B4361B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E95A081EDA720B00B4361B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E959E71EDA720B00B4361B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E959F11EDA720B00B4361B /* ViewController.swift in Sources */,
+				E0E959EF1EDA720B00B4361B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E959FB1EDA720B00B4361B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E95A041EDA720B00B4361B /* iOS_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E95A061EDA720B00B4361B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E95A0F1EDA720B00B4361B /* iOS_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E95A011EDA720B00B4361B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E959EA1EDA720B00B4361B /* iOS_Driver */;
+			targetProxy = E0E95A001EDA720B00B4361B /* PBXContainerItemProxy */;
+		};
+		E0E95A0C1EDA720B00B4361B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E959EA1EDA720B00B4361B /* iOS_Driver */;
+			targetProxy = E0E95A0B1EDA720B00B4361B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E959F21EDA720B00B4361B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E959F31EDA720B00B4361B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E959F71EDA720B00B4361B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E959F81EDA720B00B4361B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E95A111EDA720B00B4361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0E95A121EDA720B00B4361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E95A141EDA720B00B4361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = iOS_Driver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.iOS-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E0E95A151EDA720B00B4361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = iOS_Driver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.iOS-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E0E95A171EDA720B00B4361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = iOS_DriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.iOS-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Driver.app/iOS_Driver";
+			};
+			name = Debug;
+		};
+		E0E95A181EDA720B00B4361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = iOS_DriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.iOS-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Driver.app/iOS_Driver";
+			};
+			name = Release;
+		};
+		E0E95A1A1EDA720B00B4361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = iOS_DriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.iOS-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOS_Driver;
+			};
+			name = Debug;
+		};
+		E0E95A1B1EDA720B00B4361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = iOS_DriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.iOS-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOS_Driver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E959E61EDA720B00B4361B /* Build configuration list for PBXProject "iOS_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E95A111EDA720B00B4361B /* Debug */,
+				E0E95A121EDA720B00B4361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E95A131EDA720B00B4361B /* Build configuration list for PBXNativeTarget "iOS_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E95A141EDA720B00B4361B /* Debug */,
+				E0E95A151EDA720B00B4361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0E95A161EDA720B00B4361B /* Build configuration list for PBXNativeTarget "iOS_DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E95A171EDA720B00B4361B /* Debug */,
+				E0E95A181EDA720B00B4361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0E95A191EDA720B00B4361B /* Build configuration list for PBXNativeTarget "iOS_DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E95A1A1EDA720B00B4361B /* Debug */,
+				E0E95A1B1EDA720B00B4361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E959E31EDA720B00B4361B /* Project object */;
+}
