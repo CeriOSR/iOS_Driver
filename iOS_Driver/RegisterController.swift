@@ -145,7 +145,7 @@ class RegisterController: UIViewController {
                     return
                 }
                 let registrationFanRef = Database.database().reference().child("CER_Pending_Drivers")
-                registrationFanRef.updateChildValues([uid: userEmail], withCompletionBlock: { (error, ref) in
+                registrationFanRef.updateChildValues([uid: userPhone], withCompletionBlock: { (error, ref) in
                     if error != nil {
                         print(error ?? "unknown error")
                         return
