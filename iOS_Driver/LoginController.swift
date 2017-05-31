@@ -94,7 +94,6 @@ class LoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupViews()
     }
     
@@ -109,6 +108,7 @@ class LoginController: UIViewController {
     
     func setupViews() {
         view.backgroundColor = .white
+        self.dismissKeyboard()
         
         view.addSubview(emailTextField)
         view.addSubview(passwordTextField)

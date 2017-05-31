@@ -101,7 +101,7 @@ class RegisterController: UIViewController {
     func setupViews() {
         view.backgroundColor = .white
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(handleBack))
-
+        self.dismissKeyboard()
         
         view.addSubview(emailTextField)
         view.addSubview(passwordTextField)
